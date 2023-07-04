@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai:100,200,300,regular,500,600,700);
+
+/* Theme */
+@import url(src/css/theme/default.css);
+@import url(src/css/theme/light.css);
+
+* {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  transition: all .3s;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
