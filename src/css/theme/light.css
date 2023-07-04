@@ -8,3 +8,9 @@ body.light #navbar .left *,
 body.light #navbar .right * {
   color: #2e2f2f;
 }
+
+/* Footer */
+body.light #footer,
+body.light #footer * {
+  color: #2e2f2f;
+}

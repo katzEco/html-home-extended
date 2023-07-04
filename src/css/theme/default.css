@@ -8,3 +8,9 @@ body {
 #navbar .right * {
   color: whitesmoke;
 }
+
+/* Footer */
+#footer,
+#footer * {
+  color: whitesmoke;
+}
