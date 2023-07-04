@@ -3,7 +3,6 @@ let element = document.body;
 let button = document.querySelector("#themeButton");
 let logElement = document.querySelector("#log");
 
-
 if (theme) {
   element.classList.add("light");
   button.innerHTML = "🌙";
