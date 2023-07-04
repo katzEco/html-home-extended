@@ -4,9 +4,18 @@
 @import url(src/css/theme/default.css);
 @import url(src/css/theme/light.css);
 
+/* Components */
+@import url(src/css/components/navbar.css);
+@import url(src/css/components/footer.css);
+
 * {
   font-family: 'IBM Plex Sans Thai', sans-serif;
   transition: all .3s;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
 body {

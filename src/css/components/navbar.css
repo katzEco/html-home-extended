@@ -1,0 +1,52 @@
+#navbar {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar .left {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  justify-content: start;
+}
+
+#navbar .right {
+  width: 100%;
+  display: flex;
+  text-align: right;
+  justify-content: end;
+}
+
+#navbar .left *, #navbar .right * {
+  font-size: 18px;
+
+  padding: 1rem;
+  background: transparent;
+
+  display: block;
+  transition: all .3s;
+}
+
+#navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  opacity: .6;
+  cursor: pointer;
+  backdrop-filter: brightness(60%);
+}
+
+#navbar .right button {
+  outline: none;
+  border: none;
+}
+
+#navbar .right button:hover {
+  opacity: .6;
+  cursor: pointer;
+  backdrop-filter: brightness(60%);
+}
