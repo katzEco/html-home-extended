@@ -2,3 +2,9 @@ body.light {
   background: whitesmoke;
   color: #2e2f2f;
 }
+
+/* Navbar */
+body.light #navbar .left *,
+body.light #navbar .right * {
+  color: #2e2f2f;
+}
