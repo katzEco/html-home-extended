@@ -88,14 +88,14 @@
   margin: 0 auto;
 }
 
-.insideContainer #Works {
-  background: #D2D8B3;
+.insideContainer #Commissions {
+  background: #90A9B7;
   color: #272727;
   animation-delay: .5s;
 }
 
-.insideContainer #Commissions {
-  background: #90A9B7;
+.insideContainer #Works {
+  background: #D2D8B3;
   color: #272727;
   animation-delay: 1s;
 }
