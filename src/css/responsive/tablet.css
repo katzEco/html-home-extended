@@ -1,0 +1,17 @@
+@media only screen and (max-width: 900px) {
+  #navbar {
+    position: inherit;
+  }
+
+  .insideContainer div {
+    width: 100%;
+  }
+
+  .insideContainer > p {
+    display: none;
+  }
+
+  .insideContainer .text-container p {
+    display: block;
+  }
+}

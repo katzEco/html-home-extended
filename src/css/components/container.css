@@ -105,9 +105,3 @@
   color: #272727;
   animation-delay: 1.5s;
 }
-
-@media only screen and (max-width: 600px) {
-  .insideContainer {
-    width: 90%;
-  }
-}

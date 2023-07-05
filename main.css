@@ -12,6 +12,10 @@
 /* Animations */
 @import url(src/css/animation.css);
 
+/* Responsive */
+@import url(src/css/responsive/mobile.css);
+@import url(src/css/responsive/tablet.css);
+
 * {
   font-family: 'IBM Plex Sans Thai', sans-serif;
   transition: all .3s;
