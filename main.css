@@ -8,6 +8,7 @@
 @import url(src/css/components/navbar.css);
 @import url(src/css/components/footer.css);
 @import url(src/css/components/container.css);
+@import url(src/css/components/modal.css);
 
 /* Animations */
 @import url(src/css/animation.css);
