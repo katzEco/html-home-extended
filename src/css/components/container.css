@@ -43,8 +43,11 @@
   align-items: center;
   text-align: center;
 
+  transform: scale(0);
+
   animation-name: wobbleUP;
   animation-duration: .5s;
+  animation-fill-mode: forwards;
 }
 
 .insideContainer div * {
@@ -53,18 +56,17 @@
 }
 
 .insideContainer div:hover {
-  transform: scale(.95);
   cursor: pointer;
   opacity: .8;
 }
 
 .insideContainer div:hover * {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .insideContainer div .text-container {
   width: 100%;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .insideContainer #mainProfile {
@@ -89,16 +91,19 @@
 .insideContainer #Works {
   background: #D2D8B3;
   color: #272727;
+  animation-delay: .5s;
 }
 
 .insideContainer #Commissions {
   background: #90A9B7;
   color: #272727;
+  animation-delay: 1s;
 }
 
 .insideContainer #About {
   background: #EFD09E;
   color: #272727;
+  animation-delay: 1.5s;
 }
 
 @media only screen and (max-width: 600px) {
