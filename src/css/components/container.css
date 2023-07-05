@@ -91,7 +91,7 @@
 .insideContainer #Commissions {
   background: #90A9B7;
   color: #272727;
-  animation-delay: .5s;
+  animation-delay: 1.5s;
 }
 
 .insideContainer #Works {
@@ -103,5 +103,5 @@
 .insideContainer #About {
   background: #EFD09E;
   color: #272727;
-  animation-delay: 1.5s;
+  animation-delay: .5s;
 }
