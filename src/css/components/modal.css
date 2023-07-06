@@ -58,8 +58,12 @@
 
   min-height: 0 !important;
   display: block;
+
+  overflow-y: unset;
 }
 
 #modalContainer div .contentContainer {
   width: 100%;
+  height: auto !important;
+  margin: 2rem 0 !important;
 }
