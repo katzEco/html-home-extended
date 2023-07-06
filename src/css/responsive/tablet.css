@@ -14,4 +14,16 @@
   .insideContainer .text-container p {
     display: block;
   }
+
+  .insideContainer:nth-child(3) {
+    display: block;
+  }
+
+  .insideContainer.mid .Commissions {
+    display: none !important;
+  }
+  
+  .insideContainer.bot .Commissions {
+    display: block !important;
+  }
 }
