@@ -10,6 +10,9 @@
 @import url(src/css/components/container.css);
 @import url(src/css/components/modal.css);
 
+/* Modal Components */
+@import url(src/css/components/modals/modal.about.css);
+
 /* Animations */
 @import url(src/css/animation.css);
 
