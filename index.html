@@ -28,7 +28,7 @@
   <div class="container">
     <div class="front-container">
       <div class="insideContainer top">
-        <div id="mainProfile">
+        <div id="mainProfile" onclick="statusOn()">
           <div class="text-container">
             <img src="https://avatars.githubusercontent.com/u/25049577?v=4" alt="profile">
             <h2 style="text-decoration: underline;">
@@ -60,7 +60,7 @@
           </div>
         </div>
 
-        <div id="Works">
+        <div id="Works" onclick="worksOn()">
           <div class="text-container">
             <h1>
               Works
@@ -70,7 +70,7 @@
       </div>
 
       <div class="insideContainer bot">
-        <div class="Commissions">
+        <div class="Commissions" onclick="commissionOn()">
           <div class="text-container">
             <h1>
               Commissions
@@ -83,7 +83,10 @@
 
   <!-- Modal -->
   <div id="modalContainer" onclick="modalOff()">
+    <div id="StatusModal"></div>
     <div id="AboutModal"></div>
+    <div id="WorksModal"></div>
+    <div id="CommissionModal"></div>
   </div>
 
   <!-- Footer -->
