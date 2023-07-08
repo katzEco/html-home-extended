@@ -1,7 +1,9 @@
 const modal = document.querySelector('#AboutModal')
 
+// Aging
 const age = new Date().getFullYear() - new Date('June 15, 2002').getFullYear()
 
+//  Education Data
 const eduData = [
   {
     grade: "Kindergarten - Grade 6",
@@ -34,7 +36,6 @@ const eduData = [
     year: "May 2021 - Present"
   }
 ]
-
 let eduBox = ""
 eduData.forEach((data) => {
   const Box = `<li>
