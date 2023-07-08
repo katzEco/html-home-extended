@@ -81,3 +81,5 @@ function commissionOn() {
     commissionModal.classList.add('childOn')
   }
 }
+
+const musicCommissionModal = document.querySelector('#MusicCommission')
