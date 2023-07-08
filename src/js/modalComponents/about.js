@@ -38,8 +38,13 @@ const eduData = [
 ]
 let eduBox = ""
 eduData.forEach((data) => {
-  const Box = `<li>
-  [${data.grade}] - ${(data.class != "") ? `${data.class} @` : ""} ${data.school} [${data.year}]
+  const Box = `<li style="margin: .5rem 0;">
+  <p>
+    [${data.grade}]
+  </p>
+  <p>
+    ${(data.class != "") ? `${data.class} @` : ""} ${data.school} [${data.year}]
+  </p>
 </li>`
 
   if (eduBox != "") {
