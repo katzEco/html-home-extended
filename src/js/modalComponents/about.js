@@ -1,4 +1,4 @@
-const modal = document.querySelector('#AboutModal')
+const aboutData = document.querySelector('#AboutModal')
 
 // Aging
 const age = new Date().getFullYear() - new Date('June 15, 2002').getFullYear()
@@ -54,7 +54,7 @@ eduData.forEach((data) => {
   }
 })
 
-modal.innerHTML = `<div class="contentContainer">
+aboutData.innerHTML = `<div class="contentContainer">
   <h1 style="text-decoration: underline;">
     About
   </h1>
