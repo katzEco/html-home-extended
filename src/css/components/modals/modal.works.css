@@ -1,0 +1,15 @@
+#modalContainer #WorksModal {
+  background: #D2D8B3;
+  color: #272727;
+}
+
+#modalContainer #WorksModal * {
+  margin: 0;
+  padding: 0;
+}
+
+#modalContainer #WorksModal .detailed {
+  width: 80% !important;
+  margin: 0 auto !important;
+  text-align: left;
+}
