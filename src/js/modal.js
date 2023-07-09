@@ -1,18 +1,28 @@
 const closeButton = document.querySelector('.close')
 const modalBase = document.querySelector('#modalContainer')
-const elementLog = document.querySelectorAll('#modalContainer > div')
 
+// ElementListing
+const statusModal = document.querySelector('#StatusModal')
+const aboutModal = document.querySelector('#AboutModal')
+const workModal = document.querySelector("#WorksModal")
+const commissionModal = document.querySelector('#CommissionModal')
+
+// Sub Modal Elements
+const musicCommissionModal = document.querySelector('#MusicCommission')
+
+// Turn off Modal
 async function modalOff() {
   modalBase.classList.add('modalOff')
 
-  if (elementLog.classList != undefined) {
-    elementLog.classList.remove('childOn')
-  }
+  statusModal.classList.add('childOff')
+  aboutModal.classList.add('childOff')
+  workModal.classList.add('childOff')
+  commissionModal.classList.add('childOff')
+
+  musicCommissionModal.classList.add('childOff')
 }
 
 // Status Modal
-const statusModal = document.querySelector('#statusModal')
-
 function statusOn() {
   if (modalBase.classList == undefined) {
     // Add modal animation class
@@ -21,6 +31,8 @@ function statusOn() {
     // RM old class
     modalBase.classList.remove('modalOn')
     modalBase.classList.remove('modalOff')
+    statusModal.classList.remove('childOn')
+    statusModal.classList.remove('childOff')
 
     // Add Modal animation class
     modalBase.classList.add('modalOn')
@@ -29,8 +41,6 @@ function statusOn() {
 }
 
 // About Modal
-const aboutModal = document.querySelector('#AboutModal')
-
 function aboutOn() {
   if (modalBase.classList == undefined) {
     // Add modal animation class
@@ -39,6 +49,8 @@ function aboutOn() {
     // RM old class
     modalBase.classList.remove('modalOn')
     modalBase.classList.remove('modalOff')
+    aboutModal.classList.remove('childOn')
+    aboutModal.classList.remove('childOff')
 
     // Add Modal animation class
     modalBase.classList.add('modalOn')
@@ -47,8 +59,6 @@ function aboutOn() {
 }
 
 // Works Modal
-const workModal = document.querySelector("#WorksModal")
-
 function worksOn() {
   if (modalBase.classList == undefined) {
     // Add modal animation class
@@ -57,6 +67,8 @@ function worksOn() {
     // RM old class
     modalBase.classList.remove('modalOn')
     modalBase.classList.remove('modalOff')
+    workModal.classList.remove('childOn')
+    workModal.classList.remove('childOff')
 
     // Add Modal animation class
     modalBase.classList.add('modalOn')
@@ -65,8 +77,6 @@ function worksOn() {
 }
 
 // Commission Modal
-const commissionModal = document.querySelector('#CommissionModal')
-
 function commissionOn() {
   if (modalBase.classList == undefined) {
     // Add modal animation class
@@ -75,11 +85,11 @@ function commissionOn() {
     // RM old class
     modalBase.classList.remove('modalOn')
     modalBase.classList.remove('modalOff')
+    commissionModal.classList.remove('childOn')
+    commissionModal.classList.remove('childOff')
 
     // Add Modal animation class
     modalBase.classList.add('modalOn')
     commissionModal.classList.add('childOn')
   }
 }
-
-const musicCommissionModal = document.querySelector('#MusicCommission')

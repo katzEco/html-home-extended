@@ -37,6 +37,10 @@
   display: block !important;
 }
 
+.childOff {
+  display: none !important;
+}
+
 #modalContainer div {
   min-width: 22rem;
   width: 80%;
