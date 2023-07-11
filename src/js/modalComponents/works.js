@@ -40,6 +40,20 @@ skilling.programming.forEach((programming) => {
   }
 })
 
+// Music composing Skill foreaching
+let musicBox = ''
+skilling.musicComposing.forEach((music) => {
+  const based = `<p>
+  ${music}
+</p>`
+
+  if (musicBox == '') {
+    musicBox = based
+  } else {
+    musicBox = musicBox + based
+  }
+})
+
 worksData.innerHTML = `<div class="contentContainer">
   <h1 style="text-decoration: underline;">
     Works
@@ -51,6 +65,14 @@ worksData.innerHTML = `<div class="contentContainer">
 
     <div class="buttonBox">
       ${programBox}
+    </div>
+
+    <h3 style="text-decoration: underline;">
+      Music Composing
+    </h3>
+
+    <div class="buttonBox">
+      ${musicBox}
     </div>
   </div> 
 
