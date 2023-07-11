@@ -13,3 +13,28 @@
   margin: 0 auto !important;
   text-align: left;
 }
+
+#modalContainer #WorksModal .cardContainer {
+  width: 80% !important;
+  margin: 1rem auto !important;
+  text-align: center !important;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#modalContainer #WorksModal .cardContainer .WorkCard {
+  width: 100%;
+
+  background: #272727;
+  color: whitesmoke;
+
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#modalContainer #WorksModal .cardContainer .WorkCard:hover {
+  transform: scale(.95);
+}
