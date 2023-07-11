@@ -18,3 +18,24 @@
   text-align: left;
   margin-left: 2rem;
 }
+
+#modalContainer #AboutModal .buttonBox {
+  width: 100%;
+  margin: 1rem 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: .5rem;
+
+  justify-content: center;
+  text-align: center;
+}
+
+#modalContainer #AboutModal .buttonBox p {
+  width: auto;
+  padding: .25rem;
+  background-color: #272727;
+  color: whitesmoke;
+  border-radius: 10px;
+}
