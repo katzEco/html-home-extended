@@ -35,6 +35,26 @@
   border-radius: 1rem;
 }
 
-#modalContainer #WorksModal .cardContainer .WorkCard:hover {
+#modalContainer #WorksModal .cardContainer .evCard {
+  background: whitesmoke;
+  border-radius: 1rem;
+}
+
+#modalContainer #WorksModal .cardContainer .evCard .cardHeading {
+  height: 22vh;
+  border-radius: 1rem;
+
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#modalContainer #WorksModal .cardContainer .evCard .cardBody {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+#modalContainer #WorksModal .cardContainer div:hover {
   transform: scale(.95);
 }

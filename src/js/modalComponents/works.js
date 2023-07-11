@@ -64,6 +64,66 @@ workConstData.reverse().forEach((work) => {
   }
 })
 
+// Events foreaching
+let eventsBox = ""
+events.reverse().forEach((ev) => {
+  const base = `<div class="evCard" onclick="joinedID(${ev.id})">
+  <div class="cardHeading" style="background: url(${ev.img});"></div>
+  <div class="cardBody">
+    <h3>
+      ${ev.name}
+    </h3>
+    <h4>
+      ${ev.date}
+    </h4>
+    <p>
+      ${ev.desp}
+    </p>
+  </div>
+</div>`
+
+  if (eventsBox == '') {
+    eventsBox = base
+  } else {
+    eventsBox = eventsBox + base
+  }
+})
+
+// Certs foreaching
+let certsBox = ""
+certs.reverse().forEach((certs) => {
+  const base = `<div class="evCard" onclick="certID(${certs.id})">
+  <div class="cardHeading" style="background: url(${certs.img});"></div>
+  <div class="cardBody">
+    <h3>
+      ${certs.name}
+    </h3>
+    <h4>
+      ${certs.date}
+    </h4>
+    <p>
+      ${certs.desp}
+    </p>
+  </div>
+</div>`
+
+  if (eventsBox == '') {
+    certsBox = base
+  } else {
+    certsBox = certsBox + base
+  }
+})
+
+// Joined Events
+function joinedID(no) {
+  window.open(`${events[no].img}`)
+}
+
+// Certs Events
+function certID(no) {
+  window.open(`${certs[no].img}`)
+}
+
 worksData.innerHTML = `<div class="contentContainer">
   <h1 style="text-decoration: underline;">
     Works
@@ -77,7 +137,15 @@ worksData.innerHTML = `<div class="contentContainer">
     Joined Events
   </h1>
 
+  <div class="cardContainer">
+    ${eventsBox}
+  </div>
+
   <h1 style="text-decoration: underline;">
     Certificates
   </h1>
+
+  <div class="cardContainer">
+    ${certsBox}
+  </div>
 </div>`
