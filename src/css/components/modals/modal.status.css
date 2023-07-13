@@ -1,0 +1,15 @@
+#modalContainer #StatusModal {
+  background: #fe6e6f;
+  color: whitesmoke;
+}
+
+#modalContainer #StatusModal * {
+  margin: 0;
+  padding: 0;
+}
+
+#modalContainer #StatusModal .detailed {
+  width: 80% !important;
+  margin: 0 auto !important;
+  text-align: left;
+}

@@ -32,6 +32,8 @@ async function lanyardPull() {
 }
 
 async function mainLanyard() {
+  const modal = document.querySelector('#StatusModal')
+
   console.log(await lanyardPull());
 }
 

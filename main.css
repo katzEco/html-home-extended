@@ -13,6 +13,7 @@
 /* Modal Components */
 @import url(src/css/components/modals/modal.about.css);
 @import url(src/css/components/modals/modal.works.css);
+@import url(src/css/components/modals/modal.status.css);
 
 /* Animations */
 @import url(src/css/animation.css);
