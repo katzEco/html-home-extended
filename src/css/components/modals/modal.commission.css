@@ -1,0 +1,15 @@
+#modalContainer #CommissionModal {
+  background: #90A9B7;
+  color: #272727;
+}
+
+#modalContainer #CommissionModal * {
+  margin: 0;
+  padding: 0;
+}
+
+#modalContainer #CommissionModal .detailed {
+  width: 80% !important;
+  margin: 0 auto !important;
+  text-align: left;
+}
