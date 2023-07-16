@@ -1,6 +1,7 @@
 #modalContainer #StatusModal {
   background: #fe6e6f;
   color: whitesmoke;
+  overflow-x: hidden;
 }
 
 #modalContainer #StatusModal * {
@@ -8,8 +9,42 @@
   padding: 0;
 }
 
+#modalContainer #StatusModal .contentContainer {
+  width: 100% !important;
+}
+
 #modalContainer #StatusModal .detailed {
   width: 80% !important;
   margin: 0 auto !important;
   text-align: left;
+}
+
+#modalContainer #StatusModal .cardContainer {
+  width: 90% !important;
+  margin: 1rem auto;
+
+  display: block !important;
+}
+
+#modalContainer #StatusModal .cardContainer .card {
+  width: 18rem !important;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalContainer #StatusModal .cardContainer .card .img {
+  width: 5rem !important;
+  height: 5rem;
+  padding: 1rem 0;
+}
+
+#modalContainer #StatusModal .cardContainer .card .cardBody {
+  width: 100% !important;
+}
+
+#modalContainer #StatusModal .cardContainer a.card {
+  display: block !important;
 }

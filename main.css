@@ -11,9 +11,9 @@
 @import url(src/css/components/modal.css);
 
 /* Modal Components */
+@import url(src/css/components/modals/modal.status.css);
 @import url(src/css/components/modals/modal.about.css);
 @import url(src/css/components/modals/modal.works.css);
-@import url(src/css/components/modals/modal.status.css);
 @import url(src/css/components/modals/modal.commission.css);
 
 /* Animations */
